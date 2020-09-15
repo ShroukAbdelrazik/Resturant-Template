@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+/* ---------------------- Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  flex: 30%;
+}
+.nav {
+  flex: 65%;
+}
+.register {
+  flex: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* ----------------------About */
+.about {
+}
+
+/* ----------------------Menue */
+.menue {
+}
+
+/* -----------------------Book */
+.book {
+}
+
+/* ------------------------Contact */
+.contact {
+}
+
+/* ------------------------Footer */
+.footer {
+}

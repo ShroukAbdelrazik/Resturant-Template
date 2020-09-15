@@ -1,0 +1,190 @@
+<html>
+  <head>
+    <title>Registeration</title>
+
+    <link rel="stylesheet" href="css/procss.css" />
+
+    <style>
+      .cont {
+        width: 100%;
+      }
+      .cont h2 {
+        text-align: center;
+        margin-top: 50px;
+        color: #ff5a00;
+      }
+
+      .cont .login {
+        flex: 50%;
+        height: 89%;
+        margin: -18;
+      }
+
+      .cont .regist {
+        flex: 50%;
+        height: 89%;
+        margin: 8;
+      }
+
+      .cont div h3 span {
+        color: red;
+      }
+
+      .cont .login span,
+      .cont .regist span {
+        font-size: 16;
+        font-weight: bold;
+      }
+
+      .cont .login input,
+      .cont .regist input {
+        width: 245;
+        height: 35;
+        margin-bottom: 30;
+        margin-top: 10;
+        border-radius: 5px;
+        font-size: 17;
+      }
+
+      .cont .login input[type="button"],
+      .cont .regist input[type="button"] {
+        color: whitesmoke;
+        font-weight: bold;
+        background-color: darkorange;
+      }
+
+      .cont .forgot {
+        text-align: center;
+        color: red;
+
+        font-weight: normal;
+      }
+      .w-100 {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <a name="home"></a>
+      <div class="header">
+        <div class="logo">
+          <img src="images/LOGO.png" />
+        </div>
+
+        <div class="bars flex-row">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html#about">ABOUT</a></li>
+            <li><a href="index.html#menue">MENUE</a></li>
+            <li><a href="index.html#book">BOOKING</a></li>
+            <li><a href="index.html#contact">CONTACT</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+          </ul>
+        </div>
+
+        <div class="register">
+          <a href="registeration.html">Register</a>
+        </div>
+      </div>
+
+      <!--   ***************************** content  ************************ -->
+
+      <div class="cont flex">
+        <h2>REGISTERATION OR LOGIN</h2>
+
+        <div class="flex-row w-100">
+          <div class="login flex">
+            <h3><span class="fterm">LOGIN</span> FORM</h3>
+            <pre>
+                    
+                    <span>Username:</span>
+                    <input type="text" name="name" placeholder="EnterYour Username:"/>
+                    <span>Pasword:</span>
+                    <input type="password" name="pass" placeholder="EnterYour Password:"/>
+                    
+                    
+                    <input type="button" name="sign" value="Sign into your account"/>
+                    
+                    <span class="forgot" style="font-size:14;">Forgot username or password ?</span>
+                    </pre>
+          </div>
+
+          <div class="regist flex">
+            <h3><span class="fterm">REGISTER</span> FORM</h3>
+            <pre>
+                    
+              <span>Username:</span>
+              <input type="text" name="name" placeholder="EnterYour Username:"/>
+              <span>E-Mail Address:</span>
+              <input type="email" name="mail" placeholder="EnterYour Email:"/>
+              <span>Pasword:</span>
+              <input type="password" name="pass" placeholder="EnterYour Password:"/>
+              
+              
+              <input type="button" name="sign" value="Creat your account"/>
+              
+            </pre>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------ Footer -->
+      <div class="footer flex">
+        <div class="fottop flex-row">
+          <div class="fotleft">
+            <h2>Navigation</h2>
+
+            <div class="flex navs">
+              <a href="index.html">HOME</a>
+              <a href="index.html#about">ABOUT</a>
+              <a href="index.html#menue">MENUE</a>
+              <a href="index.html#book">BOOKING</a>
+              <a href="index.html#contact">CONTACT</a>
+            </div>
+          </div>
+
+          <div class="fotcenter">
+            <h2>Socialist</h2>
+
+            <div class="social">
+              <a href="http://www.facebook.com" class="fb">
+                <img src="images/fbhover.png"
+              /></a>
+              <a href="http://www.twitter.com" class="tweet">
+                <img src="images/twitterhover.png"
+              /></a>
+              <a href="http://www.youtube.com" class="youtube">
+                <img src="images/youtubehover.png" /></a
+              ><br />
+              <a href="http://www.g+.com" class="g+">
+                <img src="images/g+hover.png"
+              /></a>
+              <a href="http://www.yahoo.com" class="message">
+                <img src="images/messagehover.png"
+              /></a>
+            </div>
+          </div>
+
+          <div class="fotright flex">
+            <h2>Send Feedback</h2>
+
+            <pre class="flex">
+                <input type="text" name="name" placeholder="Enter name"/>
+                <input type="tel" name="mobile" placeholder="Enter mobile"/>
+                <textarea placeholder="Enter your comment" cols="30" rows="4"></textarea>
+                <input type="submit" name="submit" value="SUBMIT"/>
+            </pre>
+          </div>
+        </div>
+
+        <div class="fotbot">
+          <h3>
+            CopyRights &copy; 2017 Shrouk Abd-Elrazil &#124; All Rights Reserved
+            &reg; .
+          </h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
